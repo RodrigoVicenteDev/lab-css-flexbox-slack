@@ -172,8 +172,44 @@ li{
     margin-bottom: 20px;
     margin-top: 20px;
 }
-@media (min-width: 767px )and(max-width:961px) {
-    
+@media (min-width: 767px ) {
+    .bmedia{
+        flex-direction: row;
+    }
+    .input{
+        width: 70%;
+        ;
+    }
+    .getstart{
+        width: 20%;
+    }
+    .mflex{
+        display: block;
+    }
+
+    .media2{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .flexcolun2{
+        align-items: flex-start;
+    }
+    .minput{
+        width: 50%;
+            }
+    .mget{
+        width: 40%
+    }
+    .mediaflex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .ajuste{
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media(min-width:962 ) and (max-width: 1200px){
