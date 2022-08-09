@@ -138,6 +138,8 @@ nav ul{
 
 .footer{
     display: flex;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -171,6 +173,11 @@ li{
 .ajuste{
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.flexmediapub{
+    
+    display: flex;
 }
 @media (min-width: 767px ) {
     .bmedia{
@@ -210,11 +217,55 @@ li{
         margin: 0;
         padding: 0;
     }
+    .flexmediapub{
+        max-width:500px ;
+    }
+
 }
 
 @media(min-width:962 ) and (max-width: 1200px){
 
 }
 @media (min-width:1200px) {
-    
+    .hamburguer{
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    .logo{
+        width: 115px;
+    }
+
+    nav{
+        width: 98%;
+    }
+    .limidia{
+        border: 1px gray solid;
+        border-radius: 5px;
+    }
+    header{
+        flex-direction: row;
+        padding-top:5000 px;
+    }
+
+    .minput2{
+        display: none;
+    }
+    .header2{
+        flex-direction: row;
+        padding-top:5000 px;
+    }
+
+    .flexmediapub{
+        max-width:900px ;
+    }
+
+    .corpo{
+        padding-top: 90px;
+    }
 }
+
+
