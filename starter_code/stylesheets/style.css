@@ -5,3 +5,180 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 50px;
+}
+.hamburguer{
+    width: 25px;
+    background-color: #F4F3F4
+}
+
+.talking{
+    width: 90%;
+}
+
+
+.pub{
+    width: 200px;
+    margin: 20px;
+}
+
+.slogo{
+    width: 60px;
+}
+.flag{
+    width: 20px;
+}
+
+
+
+
+nav{
+    width:95%;
+    background-color: #F4F3F4 ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:fixed;
+    border-bottom: 2px gray solid;
+}
+
+
+nav ul{
+    
+    display: none;
+}
+
+.corpo{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+ header{
+    display: flex;
+    flex-direction: column-reverse;
+    
+ }
+.input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 10px;
+    padding: 1px -6px 1px 6px ;
+
+}
+ .getstart{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #254ebe;
+    border: 1px solid #254ebe;
+    color: white;
+ }
+
+ .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .flexcolun{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .why{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F4F3F4;
+    border: 1px solid hsl(223, 17%, 80%);
+    color: #254ebe;
+
+ }
+
+ #padding{
+    padding-left: 20px;
+    padding-right: 20px ;
+ }
+
+.pubarea{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F4F3F4;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .corpo2{
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#fonte{
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.footer{
+    display: flex;
+    
+}
+
+ul{
+    list-style-type: none;
+    color: rgb(206, 204, 204);
+}
+
+li{
+    margin: 5px;
+    padding: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F3F4;
+    color: gray;
+}
+
+.ulrodape{
+    display: flex;
+    color: gray;
+    margin-top: 2px;
+}
+
+.ajuste{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+@media (min-width: 767px )and(max-width:961px) {
+    
+}
+
+@media(min-width:962 ) and (max-width: 1200px){
+
+}
+@media (min-width:1200px) {
+    
+}
